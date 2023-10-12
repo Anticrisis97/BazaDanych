@@ -1,8 +1,7 @@
 import {Link} from "react-router-dom";
 import '../styles/App.css'
 import '../styles/styles.css'
-import logo from './images/logoprzyciete.png'
-import './images/logodotla.png'
+import logo from './images/prozrachniy-logo-1-800x575.png'
 
 export default function Navbar () {
     return <nav className='nav'>
