@@ -370,7 +370,7 @@ const BazaPracownikow = () => {
                                 setShowOnlyHas135(false);
                                 setShowOnlyFoodGradeWelding(false);
                                 setShowOnlyIndustrialGradeWelding(false);
-                            }}>NIP DE</button>
+                            }}>Zagraniczny NIP</button>
                         <button onClick={() => {
                             setShowHydraulicRampUsers(false);
                             setShowOnlyDriversLicenseHolders(false);

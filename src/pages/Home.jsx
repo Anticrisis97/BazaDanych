@@ -32,15 +32,7 @@ export default function Home() {
                 </div>
             ) : (
                 <>
-                    <p>v0.9</p>
-                    <p></p>
-                    <hr></hr>
-                    <p>-</p>
-                    <hr></hr>
-                    <p>Aktualizacje funkcjonalności:</p>
-                    <p> -Przyciski "rury białe" oraz "rury czarne" - działają</p>
-                    <p>Uwagi:</p>
-                    <p> Pojawiły się przyciski do filtrowania po wieku pracownika - póki co pozostaną niefunkcjonalne</p>
+                    <p>Witaj w bazie danych</p>
                 </>
             )}
         </div>
