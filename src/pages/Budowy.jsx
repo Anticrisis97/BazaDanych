@@ -2,180 +2,180 @@ import React, { useState } from 'react';
 import '../../styles/budowy.css'
 
 const companiesconstructionsites = {
-    "Budde": {
+    "Kontrahent 1": {
         "constructionSites": [
             {
-                "name": "Belm",
-                "address": "Adres budowy A",
+                "name": "Berlin",
+                "address": "Adres budowy w Berlinie",
                 "accomodation": [
                     {
-                        "name": "Frau Wissing Gluecksgriff",
-                        "address": "49084 Osnabrueck, Meller Strasse 248",
-                        "contact": "0172 283 65 79"
+                        "name": "B&B HOTEL Berlin-Alexanderplatz",
+                        "address": "Voltairestraße 3a, 10179 Berlin, Niemcy",
+                        "contact": "+49 30 234567590"
                     },
                 ]
             },
 
         ]
     },
-    "Sellman": {
+    "Kontrahent 2": {
         "constructionSites": [
             {
-                "name": "Leutkirch",
-                "address": "Adres budowy A",
+                "name": "Londyn",
+                "address": "Adres budowy w Londynie",
                 "accomodation": [
                     {
-                        "name": "Alfons Keck",
-                        "address": "Kisslegg, Schoenauweg 21-23",
-                        "contact": "0049 151 400 549 31"
+                        "name": "H10 London Waterloo",
+                        "address": "284-302 Waterloo Rd, London SE1 8RQ, Wielka Brytania",
+                        "contact": "+44 20 7928 4062"
                     },
                 ]
             },
             {
-                "name": "Lindenberg",
-                "address": "Adres budowy B",
+                "name": "Moskwa",
+                "address": "Adres budowy w Moskwie",
                 "accomodation": [
                     {
-                        "name": "Hotel XYZ",
-                        "address": "Adres hotelu XYZ",
-                        "contact": "Kontakt do hotelu XYZ"
+                        "name": "Hotel Metropol",
+                        "address": "Teatral'nyy Proyezd, 2, Moscow, Rosja, 109012",
+                        "contact": "+7 499 501-78-00"
                     },
                     {
-                        "name": "Apartament ABC",
-                        "address": "Adres apartamentu ABC",
-                        "contact": "Kontakt do apartamentu ABC"
+                        "name": "Hotel Kosmos",
+                        "address": "Prospekt Mira, 150, Moscow, Rosja, 129366",
+                        "contact": "+7 495 234-12-06"
                     }
                 ]
             },
         ]
     },
-    "Kliewe": {
+    "Kontrahent 3": {
         "constructionSites": [
             {
-                "name": "Hamburg",
-                "address": "Adres budowy A",
+                "name": "Tokio",
+                "address": "Adres budowy w Tokio",
                 "accomodation": [
                     {
-                        "name": "Radics Bau - Andras Radics",
-                        "address": "22393 Hamburg, Meiendorfer Muehlenweg 11a",
-                        "contact": "0174 301 8930 & 0162 241 7238"
+                        "name": "MUJI HOTEL GINZA",
+                        "address": "104-0061 Tokyo-to, 3-3-5 6F Ginza, Chuo-ku, Japan",
+                        "contact": "0174 301 8930"
                     },
                     {
-                        "name": "DKN Monteurzimmer GmbH",
-                        "address": "04315 Leipzig, Wurzner Str. 95",
-                        "contact": "+49 341 4999 44 88 & +49 162 710 44 88"
+                        "name": "The Gate Hotel Ryogoku by Hulic",
+                        "address": "130-0015 Tokyo-to, Sumida-Ku Yokoami 1-2-13, Japan",
+                        "contact": "+49 341 4999 44"
                     },
                     {
-                        "name": "Monteurswohnungen am Kiekeberg - Angela un Martin Piotrowski",
-                        "address": "21224 Rosengarten, Am Kiekeberg 7",
-                        "contact": "040 796 89 402 & 040 796 89 398",
+                        "name": "Mitsui Garden Hotel Toyosu Premier - Tokyo",
+                        "address": "135-0061 Tokyo-to, Koto-ku, Toyosu 2-2-1, Japan",
+                        "contact": "040 796 89 402",
                     }
                 ]
             },
         ]
     },
-    "Schmitz": {
+    "Kontrahent 5": {
         "constructionSites": [
             {
-                "name": "Dueren",
-                "address": "Adres budowy A",
+                "name": "Liverpool",
+                "address": "Adres budowy w Liverpoolu",
                 "accomodation": [
                     {
-                        "name": "FeWo Clemens - Marion Clemens",
-                        "address": "52399 Merzenich, Klosterstrasse 8",
-                        "contact": "0049 152 310 879 05"
+                        "name": "The Resident Liverpool",
+                        "address": "29 Seel St, Liverpool L1 4AU, Wielka Brytania",
+                        "contact": "+44 151 705 2626"
                     },
                     {
-                        "name": "Familie Jansen - Dirk Jansen",
-                        "address": "52355 Dueren, Im Kleffert 1a",
+                        "name": "Travelodge Liverpool Central The Strand",
+                        "address": "The Strand, Liverpool L2 0PP, Wielka Brytania",
                         "contact": "172 701 37 88"
                     }
                 ]
             },
         ]
     },
-    "Altemeier": {
+    "Kontrahent 8": {
         "constructionSites": [
             {
-                "name": "Bielefeld",
-                "address": "Adres budowy A",
+                "name": "Pekin",
+                "address": "Adres budowy w Pekinie",
                 "accomodation": [
                     {
-                        "name": "Klemens Bogdanski",
-                        "address": "33729 Bielefeld, Luetkes Holz 15",
-                        "contact": "0049 521 270 12 07, bogdanski.bielefeld@freenet.de"
+                        "name": "The Great Wall Sheraton Hotel Beijing",
+                        "address": "Chiny, Beijing, Chaoyang, 东三环北路10号 邮政编码: 100125",
+                        "contact": "+86 10 6590 5566"
                     },
                 ]
             },
         ]
     },
-    "ISW": {
+    "Kontrahent 11": {
         "constructionSites": [
             {
-                "name": "Uetersen",
-                "address": "Adres budowy A",
+                "name": "Ateny",
+                "address": "Adres budowy w Atenach",
                 "accomodation": [
                     {
-                        "name": "KREME",
-                        "address": "25335 Elmshorn, Kirchenstrasse 40",
-                        "contact": "0049 176 814 616 67"
+                        "name": "Marina-Athens Hotel",
+                        "address": "Voulgari 13, Athina 104 37, Grecja",
+                        "contact": "+30 21 0520 0660"
                     },
                 ]
             },
         ]
     },
-    "Montabos": {
+    "Kontrahent 16": {
         "constructionSites": [
             {
-                "name": "Cham",
-                "address": "Adres budowy A",
+                "name": "Dunkierka",
+                "address": "Adres budowy w Dunkierce",
                 "accomodation": [
                     {
-                        "name": "Serve Elisabeth",
-                        "address": "93455 Atzenzell, Buchmarterweg 5",
-                        "contact": "0049 681 954 1120"
+                        "name": "Radisson Blu Grand Hotel & Spa, Malo-les-Bains",
+                        "address": "4-8 rue Marcel Sailly, Malo-les-Bains, Dunkierka, 59140, Francja",
+                        "contact": "+33 3 66 32 53 70"
                     },
 
                 ]
             },
             {
-                "name": "Iggensbach",
-                "address": "Adres budowy B",
+                "name": "Madryt",
+                "address": "Adres budowy w Madrycie",
                 "accomodation": [
                     {
-                        "name": "Pension Falter (Helmut Falter)",
-                        "address": "94577 Winzer, Boehmerkaldstrasse 9a",
-                        "contact": "0049 151 407 832 53"
+                        "name": "JW Marriott Hotel Madrid",
+                        "address": "C. de Sevilla, 2, 28014 Madrid, Hiszpania",
+                        "contact": "+34 914 18 97 70"
                     },
                 ]
             },
         ]
     },
-    "MBA": {
+    "Kontrahent 20": {
         "constructionSites": [
             {
-                "name": "Neubrandenburg",
-                "address": "Adres budowy A",
+                "name": "Bratysława",
+                "address": "Adres budowy w Bratysławie",
                 "accomodation": [
                     {
-                        "name": "Sattelpause Elke - Hornung - Petit",
-                        "address": "17348 Woldegk, Wiesengrund 5",
-                        "contact": "0049 151 242 345 00"
+                        "name": "DREAM Hostel Bratislava",
+                        "address": "9A, Leškova 4932, 811 04 Bratislava, Słowacja",
+                        "contact": "+421 2/330 002 37"
                     },
                 ]
             },
         ]
     },
-    "Dirninnger": {
+    "Kontrahent 30": {
         "constructionSites": [
             {
-                "name": "Enns",
-                "address": "Adres budowy A",
+                "name": "Dżakarta",
+                "address": "Adres budowy w Dżakarcie",
                 "accomodation": [
                     {
-                        "name": "Franz Brandstaetter",
-                        "address": "4073 Wilhering, Ziegelofenweg 5",
-                        "contact": "00 43 676 3355209"
+                        "name": "Hotel Indonesia Kempinski Jakarta",
+                        "address": "Jl. M.H. Thamrin No.1, RT.1/RW.5, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonezja",
+                        "contact": "+62 21 23583800"
                     },
                 ]
             },
