@@ -25,19 +25,14 @@ h3 {
     margin-bottom: 4px;
 }
 
-li[data-name="BeHe GmbH"],
-li[data-name="Chriwa"],
-li[data-name="Heat 11"],
-li[data-name="Klumpp"],
-li[data-name="Krawinkel"],
-li[data-name="MBA Anlagenbau GmbH"],
-li[data-name="Plan B"],
-li[data-name="Pro Weiss"],
-li[data-name="Turbotechnik"],
-li[data-name="Belmont"],
-li[data-name="RULAND"],
-li[data-name="East Peter Koch"],
-li[data-name="GBP - Schweisstechnik GmbH"],
-li[data-name="Turbotechnik"]{
+li[data-name="Kontrahent 1"],
+li[data-name="Kontrahent 4"],
+li[data-name="Kontrahent 8"],
+li[data-name="Kontrahent 11"],
+li[data-name="Kontrahent 14"],
+li[data-name="Kontrahent 19"],
+li[data-name="Kontrahent 22"],
+li[data-name="Kontrahent 23"]
+{
     color: #888;
 }
