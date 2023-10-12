@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+div.container {
+    background: rgb(244,16,9);
+    background: linear-gradient(14deg, rgba(244,16,9,0.4990371148459384) 0%, rgba(240,149,11,0.6699054621848739) 35%, rgba(241,255,0,0.5522584033613445) 100%);
+}
+
+.nav {
+    background-color: rgba(112, 89, 89, 0.64);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.site-title {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 8px
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+.nav li:active {
+    background-color: #2f1b1b;
+
+}
+
+.nav li:hover {
+    background-color: #2f1b1b;
+}
+
+.nav li:last-child {
+    margin-right: 40px;
+}
+
+.container {
+    border: 1px solid black;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    font-family: Roboto, sans-serif;
+}
+
+.arrow {
+    transition: transform 0.9s ease-in-out;
+
+}
+
+.expanded .arrow {
+    transform: rotate(90deg);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.imie_i_nazwisko {
+    text-decoration: underline;
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2{
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
+.employee_data_list {
+    margin: 6px;
+}
+
+.search_bar{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}

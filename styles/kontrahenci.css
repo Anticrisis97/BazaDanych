@@ -1,0 +1,43 @@
+li {
+    list-style: none;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.contractor_email_list p {
+    font-family: Roboto, sans-serif;
+    margin: 6px;
+}
+
+.contractor_email_list {
+    margin: 6px;
+    height: fit-content;
+}
+
+p {
+    margin: 6px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+li[data-name="BeHe GmbH"],
+li[data-name="Chriwa"],
+li[data-name="Heat 11"],
+li[data-name="Klumpp"],
+li[data-name="Krawinkel"],
+li[data-name="MBA Anlagenbau GmbH"],
+li[data-name="Plan B"],
+li[data-name="Pro Weiss"],
+li[data-name="Turbotechnik"],
+li[data-name="Belmont"],
+li[data-name="RULAND"],
+li[data-name="East Peter Koch"],
+li[data-name="GBP - Schweisstechnik GmbH"],
+li[data-name="Turbotechnik"]{
+    color: #888;
+}

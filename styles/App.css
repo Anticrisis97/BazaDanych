@@ -1,0 +1,43 @@
+.main_container{
+    border: 1px solid black;
+    width: 1600px;
+    height: 900px;
+}
+
+.update_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+hr {
+    width: 180px;
+}
+
+.password-modal {
+    background-color: blue; /* Dodaj kolor tła, na przykład niebieski */
+    padding: 20px; /* Dodaj odpowiedni padding lub inne style w zależności od preferencji */
+    text-align: center; /* Wycentruj zawartość */
+    position: fixed; /* Ustaw pozycję jako fixed, aby zakryć całą stronę */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; /* Opcjonalnie zmniejsz przezroczystość tła */
+}
+
+img {
+    width: 195px;
+    height: 113px;
+    padding-bottom: 15px;
+}
